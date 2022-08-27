@@ -1,0 +1,9 @@
+{
+  "region": "ap-southeast-2",
+  "userS3Bucket": "ribbontek-files-user-prod",
+  "compressedS3Bucket": "ribbontek-files-compressed-prod",
+  "analyzedS3Bucket": "ribbontek-files-analyzed-prod",
+  "fileDynamoDbTable": "ribbontek_files_prod",
+  "postDynamoDbTable": "ribbontek_posts_prod",
+  "userDynamoDbTable": "ribbontek_users_prod"
+}

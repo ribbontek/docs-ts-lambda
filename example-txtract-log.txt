@@ -1,0 +1,42 @@
+0|serverless-service  | Block Type: PAGE
+0|serverless-service  | Text: undefined
+0|serverless-service  | TextType: undefined
+0|serverless-service  | Confidence: undefined
+0|serverless-service  | -----
+0|serverless-service  | Block Type: LINE
+0|serverless-service  | Text: ROBBERBREAKSINTOMYHOUSE
+0|serverless-service  | TextType: undefined
+0|serverless-service  | Confidence: 91.61626434326172
+0|serverless-service  | Bounding Box {"x":65.71306139230728,"y":47.55568653345108,"w":952.2187256813049,"h":77.94312983751297}
+0|serverless-service  | -----
+0|serverless-service  | Block Type: LINE
+0|serverless-service  | Text: ME: ALEXA, RELEASE THE ROOMBAS
+0|serverless-service  | TextType: undefined
+0|serverless-service  | Confidence: 90.80599975585938
+0|serverless-service  | Bounding Box {"x":31.469905748963356,"y":144.26734864711761,"w":1009.6477603912354,"h":83.50137770175934}
+0|serverless-service  | -----
+0|serverless-service  | Block Type: WORD
+0|serverless-service  | Text: ROBBERBREAKSINTOMYHOUSE
+0|serverless-service  | TextType: PRINTED
+0|serverless-service  | Confidence: 91.61626434326172
+0|serverless-service  | -----
+0|serverless-service  | Block Type: WORD
+0|serverless-service  | Text: ME: ALEXA,
+0|serverless-service  | TextType: PRINTED
+0|serverless-service  | Confidence: 63.44145965576172
+0|serverless-service  | -----
+0|serverless-service  | Block Type: WORD
+0|serverless-service  | Text: RELEASE
+0|serverless-service  | TextType: PRINTED
+0|serverless-service  | Confidence: 99.90140533447266
+0|serverless-service  | -----
+0|serverless-service  | Block Type: WORD
+0|serverless-service  | Text: THE
+0|serverless-service  | TextType: PRINTED
+0|serverless-service  | Confidence: 99.97332763671875
+0|serverless-service  | -----
+0|serverless-service  | Block Type: WORD
+0|serverless-service  | Text: ROOMBAS
+0|serverless-service  | TextType: PRINTED
+0|serverless-service  | Confidence: 99.90780639648438
+0|serverless-service  | -----

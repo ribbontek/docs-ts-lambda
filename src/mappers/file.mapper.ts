@@ -14,7 +14,8 @@ export const mapCreateFileCommandToEntity = (createFile: CreateFileCommand): Fil
         analyzed: false,
         tags: [],
         deleted: false,
-        metadata: []
+        metadata: [],
+        blocks: []
     };
 };
 
@@ -38,6 +39,7 @@ export const mapProcessFileCompressedResultCommandToEntity = (cmd: ProcessFileCo
         analyzed: entity.analyzed,
         tags: entity.tags,
         deleted: false,
-        metadata: cmd.metadata
+        metadata: cmd.metadata,
+        blocks: entity.blocks
     };
 };

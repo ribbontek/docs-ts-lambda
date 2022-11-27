@@ -1,5 +1,4 @@
-import { DynamoDB } from "@aws-sdk/client-dynamodb";
-import { S3ClientConfig } from "@aws-sdk/client-s3";
+import { DynamoDB, DynamoDBClientConfig } from "@aws-sdk/client-dynamodb";
 
 export const dynamodbClient = (): DynamoDB => {
     if (["dev", "test"].includes(process.env.SYS_ENV)) {
@@ -12,7 +11,7 @@ export const dynamodbClient = (): DynamoDB => {
                     secretAccessKey: "DEFAULT_SECRET"
                 },
                 endpoint: "http://localhost:8002/shell",
-            } as S3ClientConfig
+            } as DynamoDBClientConfig
         );
     }
     return new DynamoDB({region: process.env.AWS_REGION});
